@@ -1,8 +1,9 @@
+import React from "react";
+
 const App = () => {
   return (
-    <div className="Container">
+    <div className="App">
       <h1>Hello World</h1>
-      <h2>Hi</h2>
     </div>
   );
 };
