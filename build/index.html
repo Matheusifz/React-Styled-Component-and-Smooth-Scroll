@@ -1,18 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="#000000" />
-    <title>React with Webpack and Babel</title>
-  <script defer src="index.bundle.js"></script></head>
-  <body>
-    <noscript> You need to enable JavaScript to run this app. </noscript>
-    <div id="root">
-      <!-- This div is where our app will run -->
-    </div>
-  </body>
-</html>
+<head><script defer src="index.bundle.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve 'C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\src  \index.html' in 'C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean'
+  ModuleNotFoundError: Module not found: Error: Can't resolve 'C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gami  ng\frontend-clean\src\index.html' in 'C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean'
+      at C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\webpack\lib\Compilation  .js:2011:28
+      at C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\webpack\lib\NormalModul  eFactory.js:795:13
+      at eval (eval at create (C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\t  apable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\webpack\lib\NormalModul  eFactory.js:275:22
+      at eval (eval at create (C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\t  apable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\webpack\lib\NormalModul  eFactory.js:431:22
+      at C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\webpack\lib\NormalModul  eFactory.js:124:11
+      at C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\webpack\lib\NormalModul  eFactory.js:667:25
+      at C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\webpack\lib\NormalModul  eFactory.js:852:8
+      at C:\Users\mathe\OneDrive\Área de Trabalho\Pro-Gaming\frontend-clean\node_modules\webpack\lib\NormalModul  eFactory.js:972:5
+  
+  - Compilation.js:2011 
+    [frontend-clean]/[webpack]/lib/Compilation.js:2011:28
+  
+  - NormalModuleFactory.js:795 
+    [frontend-clean]/[webpack]/lib/NormalModuleFactory.js:795:13
+  
+  
+  - NormalModuleFactory.js:275 
+    [frontend-clean]/[webpack]/lib/NormalModuleFactory.js:275:22
+  
+  
+  - NormalModuleFactory.js:431 
+    [frontend-clean]/[webpack]/lib/NormalModuleFactory.js:431:22
+  
+  - NormalModuleFactory.js:124 
+    [frontend-clean]/[webpack]/lib/NormalModuleFactory.js:124:11
+  
+  - NormalModuleFactory.js:667 
+    [frontend-clean]/[webpack]/lib/NormalModuleFactory.js:667:25
+  
+  - NormalModuleFactory.js:852 
+    [frontend-clean]/[webpack]/lib/NormalModuleFactory.js:852:8
+  
+  - NormalModuleFactory.js:972 
+    [frontend-clean]/[webpack]/lib/NormalModuleFactory.js:972:5
+  
+  - child-compiler.js:169 
+    [frontend-clean]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:559 
+    [frontend-clean]/[webpack]/lib/Compiler.js:559:11
+  
+  - Compiler.js:1129 
+    [frontend-clean]/[webpack]/lib/Compiler.js:1129:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [frontend-clean]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1125 
+    [frontend-clean]/[webpack]/lib/Compiler.js:1125:33
+  
+  - Compilation.js:2782 finalCallback
+    [frontend-clean]/[webpack]/lib/Compilation.js:2782:11
+  
+  - Compilation.js:3087 
+    [frontend-clean]/[webpack]/lib/Compilation.js:3087:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [frontend-clean]/[tapable]/lib/Hook.js:18:14
+  
+</pre>
