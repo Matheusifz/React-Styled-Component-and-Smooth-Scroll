@@ -17,16 +17,16 @@ export const HomeObjOne = {
 };
 
 export const HomeObjTwo = {
-  id: "about",
+  id: "discover",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Premium Bank",
-  headline: "Unlimited Transactions with zero fees",
+  topLine: "Unlimited Acess",
+  headline: "Login to your account at any time",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fee",
+    "We have you covered no matter where you are located. All you need is an internet connection and a phone.",
   buttonLabel: "Get Started",
-  imgStart: false,
+  imgStart: true,
   alt: "Pig",
   img: "https://svgshare.com/i/d0Z.svg",
   dark: false,
@@ -35,19 +35,19 @@ export const HomeObjTwo = {
 };
 
 export const HomeObjThree = {
-  id: "about",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "Premium Bank",
-  headline: "Unlimited Transactions with zero fees",
+  id: "signup",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Join our team",
+  headline: "Creating an account is extremely easy",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fee",
-  buttonLabel: "Get Started",
+    "Get everything set and ready in under 10 minutes. All you need to do is add your information and you're ready to go",
+  buttonLabel: "Start Now",
   imgStart: false,
   alt: "Car",
   img: "https://svgshare.com/i/cye.svg",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 };
